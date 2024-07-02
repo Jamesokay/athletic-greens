@@ -130,7 +130,7 @@ get_header();
                 <h1 class="text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit</h1>
                 <div class="flex flex-col">
                     <div class="flex flex-col pb-3.5 border-b border-1 border-vitality-grey">
-                        <div class="flex justify-between font-semibold text-lg">
+                        <div class="flex justify-between font-medium text-lg">
                             <p>AG1 Pouch</p>
                             <p>$79/mo USD</p>
                         </div>
@@ -140,27 +140,41 @@ get_header();
                         <p class="text-xs text-vitality-grey-dark">FIRST TIME PURCHASE INCLUDES:</p>
                         <div class="flex flex-col">
                             <div class="flex justify-between text-lg">
-                                <p class="font-semibold">Welcome Kit</p>
-                                <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$28</span><span class="font-semibold">Free</span></div>
+                                <p class="font-medium">Welcome Kit</p>
+                                <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$28</span><span class="font-medium">Free</span></div>
                             </div>
                             <p class="text-sm text-vitality-grey-dark">AG1 Shaker, Scoop and Canister</p>
                         </div>
                         <div class="flex flex-col">
                             <div class="flex justify-between text-lg">
-                                <p class="font-semibold">AG1 Travel Packs (5 count)</p>
-                                <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$18</span><span class="font-semibold">Free</span></div>
+                                <p class="font-medium">AG1 Travel Packs (5 count)</p>
+                                <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$18</span><span class="font-medium">Free</span></div>
                             </div>
                             <p class="text-sm text-vitality-grey-dark">5 individual servings</p>
                         </div>
                     </div>
                     <div class="flex justify-between pt-3.5 text-lg">
-                        <p class="font-semibold">Total</p>
-                        <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$126</span><span class="font-semibold">$79/mo USD</span></div>
+                        <p class="font-medium">Total</p>
+                        <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$126</span><span class="font-medium">$79/mo USD</span></div>
                     </div>
                     <button class="flex justify-center mt-12 mb-4 rounded-full w-full py-4 text-xl text-white border-none bg-vitality-green transition-all duration-300 hover:bg-vitality-green-hover hover:border-none hover:text-black">Buy AG1 Now</button>
                     <div class="flex gap-2 items-center justify-center w-full">
                         <p class="text-lg font-light">HSA/FSA eligible with</p>
                         <img class="w-[100px]" src="https://drinkag1.com/trumed_logo.png" alt="Truemed Logo" />
+                    </div>
+                    <div class="flex w-full justify-center gap-4 mt-8">
+                        <div class="flex items-center gap-2">
+                            <div class="w-4 h-4">
+                                <?php include_svg('tick-icon.svg'); ?>
+                            </div>
+                            <p class="text-xs">90-day money back guarantee</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="w-4 h-4">
+                                <?php include_svg('tick-icon.svg'); ?>
+                            </div>
+                            <p class="text-xs">Update or cancel anytime</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,6 +182,44 @@ get_header();
                 <picture>
                     <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max 2048w" src="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=320&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
                 </picture>
+            </div>
+        </div>
+        <div class="flex flew-wrap gap-8 justify-center w-full mt-10">
+            <div class="flex gap-2 items-center">
+                <div class="w-6 h-6">
+                    <?php include_svg('tick-icon.svg'); ?>
+                </div>
+                <p class="text-sm">VEGAN</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div class="w-6 h-6">
+                    <?php include_svg('tick-icon.svg'); ?>
+                </div>
+                <p class="text-sm">GLUTEN-FREE</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div class="w-6 h-6">
+                    <?php include_svg('tick-icon.svg'); ?>
+                </div>
+                <p class="text-sm">DAIRY-FREE</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div class="w-6 h-6">
+                    <?php include_svg('tick-icon.svg'); ?>
+                </div>
+                <p class="text-sm">NON GMO</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div class="w-6 h-6">
+                    <?php include_svg('tick-icon.svg'); ?>
+                </div>
+                <p class="text-sm">NO SUGAR ADDED</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div class="w-6 h-6">
+                    <?php include_svg('tick-icon.svg'); ?>
+                </div>
+                <p class="text-sm">NO ARTIFICIAL SWEETENERS</p>
             </div>
         </div>
     </section>
