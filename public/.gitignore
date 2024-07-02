@@ -1,0 +1,59 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore configuration files that contain sensitive information
+wp-config.php
+
+# Ignore WordPress content that is not theme-specific
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache-config.php
+/wp-content/backups/
+/wp-content/mu-plugins/
+/wp-content/plugins/
+/wp-content/languages/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore node_modules if using Node.js
+node_modules/
+
+# Ignore Composer dependencies
+vendor/
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore static assets
+/public/wp-content/uploads/*
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore any compiled Sass or CSS files
+.sass-cache/
+*.css.map
+
+# Ignore tailwind output
+/output.css
