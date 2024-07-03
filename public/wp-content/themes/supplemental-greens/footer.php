@@ -14,7 +14,63 @@
 
 <footer class="w-full bg-vitality-green-dark text-white">
 	<div class="flex w-full justify-center gap-4 p-16 border-b border-white">
-		<div class="flex flex-wrap flex-auto">
+
+		<div class="flex xl:hidden flex-col flex-auto max-w-[50%]">
+			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				SHOP
+			</button>
+
+			<div class="!visible hidden" id="collapseExample" data-twe-collapse-item>
+				<ul class="list-none m-0 text-sm font-light pb-6">
+					<li class="mb-2">The Pouch</li>
+					<li>Travel Packs</li>
+				</ul>
+			</div>
+			<div class="h-[1px] w-full bg-white"></div>
+			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+				LEARN MORE
+			</button>
+
+			<div class="!visible hidden" id="collapseExample2" data-twe-collapse-item>
+				<ul class="list-none m-0 text-sm font-light pb-6">
+					<li class="mb-2">Ingredients</li>
+					<li class="mb-2">Research</li>
+					<li class="mb-2">Reviews</li>
+					<li>FAQs</li>
+				</ul>
+			</div>
+			<div class="h-[1px] w-full bg-white"></div>
+			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+				ABOUT
+			</button>
+
+			<div class="!visible hidden" id="collapseExample3" data-twe-collapse-item>
+				<ul class="list-none m-0 text-sm font-light pb-6">
+					<li class="mb-2">About Us</li>
+					<li class="mb-2">Refer Friends</li>
+					<li class="mb-2">Partners</li>
+					<li class="mb-2">2023 Impact Report</li>
+					<li>Accessibility Statement</li>
+				</ul>
+			</div>
+			<div class="h-[1px] w-full bg-white"></div>
+			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+				CONTACT
+			</button>
+
+			<div class="!visible hidden" id="collapseExample4" data-twe-collapse-item>
+				<ul class="list-none m-0 text-sm font-light pb-6">
+					<li class="mb-2">My Account</li>
+					<li class="mb-2">Track My Order</li>
+					<li class="mb-2">Help</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+			<div class="h-[1px] w-full bg-white"></div>
+		</div>
+
+
+		<div class="hidden xl:flex flex-wrap flex-auto">
 			<div class="flex flex-col flex-auto gap-5">
 				<h3 class="text-lg font-medium">SHOP</h3>
 				<ul class="list-none m-0 text-sm font-light">
@@ -51,7 +107,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="flex flex-col gap-5">
+		<div class="flex flex-auto max-w-[33%] min-w-[320px] ml-auto xl:ml-0 xl:max-w-[25%] flex-col gap-5">
 			<h3 class="text-lg font-medium">CONNECT</h3>
 			<p class="text-sm font-light">Join Our Newsletter</p>
 			<div class="flex items-center justify-between w-full bg-white rounded-full px-4 py-3">
@@ -60,7 +116,7 @@
 					<?php include_svg('arrow-icon.svg'); ?>
 				</span>
 			</div>
-			<div class="flex items-center gap-3">
+			<div class="hidden xl:flex items-center gap-3">
 				<span class="w-6 h-6">
 					<?php include_svg('instagram-icon.svg'); ?>
 				</span>
@@ -79,11 +135,31 @@
 			</div>
 		</div>
 	</div>
-	<div class="flex w-full p-16 gap-8">
-		<div class="flex-auto min-w-[320px]">
-			<?php include_svg('ag1-icon.svg'); ?>
+	<div class="relative flex flex-col items-center xl:items-start xl:flex-row w-full xl:p-16 xl:gap-8">
+		<div class="flex flex-col gap-8 items-center py-12 xl:py-0">
+			<div class="flex xl:hidden items-center gap-3">
+				<span class="w-6 h-6">
+					<?php include_svg('instagram-icon.svg'); ?>
+				</span>
+				<span class="w-6 h-6">
+					<?php include_svg('facebook-icon.svg'); ?>
+				</span>
+				<span class="w-6 h-6">
+					<?php include_svg('twitter-icon.svg'); ?>
+				</span>
+				<span class="w-6 h-6">
+					<?php include_svg('tiktok-icon.svg'); ?>
+				</span>
+				<span class="w-8 h-6">
+					<?php include_svg('youtube-icon.svg'); ?>
+				</span>
+			</div>
+			<div class="flex-auto min-w-[320px] max-w-[320px] xl:max-w-none">
+				<?php include_svg('ag1-icon.svg'); ?>
+			</div>
+			<p class="flex xl:hidden">© 2024 AG1</p>
 		</div>
-		<div class="flex flex-auto max-w-[42.5%] flex-col font-light gap-4">
+		<div class="order-3 xl:order-2 flex flex-auto items-center xl:items-start max-w-[95%] md:max-w-[65%] xl:max-w-[42.5%] flex-col font-light gap-4 py-12 xl:py-0">
 			<div class="border border-white px-3 py-4 text-xs">
 				<p>* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
 			</div>
@@ -104,7 +180,7 @@
 				<p>Terms & Conditions</p>
 			</div>
 		</div>
-		<div class="relative flex flex-auto justify-end">
+		<div class="order-2 xl:order-3 flex justify-center xl:justify-end border-y xl:border-none w-full py-12 xl:py-0">
 			<div class="flex items-center gap-4 h-fit font-light">
 				<div class="w-7 h-7 rounded-full overflow-hidden border-2">
 					<?php include_svg('usa-region-icon.svg'); ?>
@@ -113,14 +189,14 @@
 				<span>|</span>
 				<span>$ United States (USD)</span>
 			</div>
-			<p class="absolute right-0 bottom-0">© 2024 AG1</p>
 		</div>
+		<p class="hidden xl:flex absolute right-16 bottom-16">© 2024 AG1</p>
 	</div>
 </footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/js/tw-elements.umd.min.js"></script>
 </body>
 
 </html>
