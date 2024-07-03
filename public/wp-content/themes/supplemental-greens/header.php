@@ -40,12 +40,17 @@
 					</a>
 				</div>
 			</div>
-			<button id="shop-button" class="flex items-center gap-2 appearance-none rounded-full px-6 py-3 bg-transparent border border-2 border-white hover:border-white text-white transition-all duration-300">
-				<p class="text-lg">Get your <span class="tracking-tighter">AG1</span><sup class="text-xs">®</sup></p>
-				<span class="flex w-6 h-6">
-					<?php include_svg('arrow-icon.svg'); ?>
-				</span>
-			</button>
+			<div class="flex items-center gap-8">
+				<button id="shop-button" class="flex items-center gap-2 appearance-none rounded-full px-6 py-3 bg-transparent border border-2 border-white hover:border-white text-white transition-all duration-300">
+					<p class="text-lg">Get your <span class="tracking-tighter">AG1</span><sup class="text-xs">®</sup></p>
+					<span class="flex w-6 h-6">
+						<?php include_svg('arrow-icon.svg'); ?>
+					</span>
+				</button>
+				<div id="account-button" role="button" class="flex text-white transition-all duration-300">
+					<?php include_svg('user-icon.svg'); ?>
+				</div>
+			</div>
 		</header>
 	</div>
 	<?php wp_footer(); ?>
