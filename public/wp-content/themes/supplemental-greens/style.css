@@ -888,6 +888,20 @@ a:active {
 	letter-spacing: -0.15rem;
 }
 
+.hero-video-container {
+	display: grid;
+	grid-template-areas: 'a';
+	align-items: stretch;
+	height: 100%;
+	width: 100%;
+}
+
+.hero-video {
+	grid-area: a;
+	max-width: none;
+	width: 100%;
+}
+
 @keyframes fadeInOut {
     0%, 100% { opacity: 0; }
     10%, 90% { opacity: 1; }

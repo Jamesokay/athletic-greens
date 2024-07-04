@@ -15,6 +15,9 @@ module.exports = {
 				'vitality-green': '#0c3d3d',
 				'vitality-green-hover': '#1ad976',
 			},
+			screens: {
+				'2xl': '1440px',
+			},
 		},
 	},
 	plugins: [],

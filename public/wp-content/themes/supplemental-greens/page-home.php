@@ -10,13 +10,15 @@ get_header();
 <main id="primary" class="site-main">
 
     <!-- Hero Section -->
-    <section id="hero" class="relative flex w-full">
-        <video autoplay loop muted preload="none">
-            <source src="https://cdn.sanity.io/files/jf30o7wb/production/930090e1d091f32ab79c1d795a86a30ec092ab53.mp4">
-        </video>
-        <div class="absolute top-0 left-0 z-20 flex w-full h-full px-12">
-            <div class="flex flex-col justify-center text-white max-w-[41%] gap-4">
-                <div class="flex flex-col hero-text text-8xl">
+    <section id="hero" class="relative flex w-full h-full overflow-hidden">
+        <div class="hero-video-container absolute top-0 left-0">
+            <video class="hero-video object-cover" autoplay loop muted preload="none">
+                <source src="https://cdn.sanity.io/files/jf30o7wb/production/930090e1d091f32ab79c1d795a86a30ec092ab53.mp4">
+            </video>
+        </div>
+        <div class=" z-20 flex w-full h-[85dvh] lg:h-[100dvh] px-12">
+            <div class="flex flex-col justify-center text-white max-w-[75%] xl:max-w-[41%] gap-4">
+                <div class="flex flex-col hero-text text-7xl xl:text-8xl">
                     <p class="leading-[1]">We're here to</p>
                     <p class="leading-[1]">help you feel</p>
                     <p id="rotating-word" class="leading-[1]">energized</p>
@@ -38,30 +40,35 @@ get_header();
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="py-20">
-        <div class="flex justify-between px-20">
-            <div class="flex flex-col max-w-[27.5%] gap-6">
-                <h2 class="text-[3.25rem] leading-[1]">More-in-one nutrition</h2>
-                <p class="text-2xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
-                <p class="text-2xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
+    <section id="features" class="py-20 bg-vitality-beige lg:bg-white">
+        <div class="flex justify-between px-8 md:px-20">
+            <div class="hidden lg:flex flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6">
+                <h2 class="text-4xl 2xl:text-[3.25rem] leading-[1]">More-in-one nutrition</h2>
+                <p class="text-xl 2xl:text-2xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
+                <p class="text-xl 2xl:text-2xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
             </div>
-            <div class="flex bg-vitality-beige">
-                <div class="w-[414px] h-[848px]">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
+            <div class="flex flex-col bg-vitality-beige">
+                <div class="flex lg:hidden flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6">
+                    <h2 class="text-4xl leading-[1]">More-in-one nutrition</h2>
+                    <p class="text-xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
+                    <p class="text-xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
                 </div>
-                <div class="flex flex-col items-center pr-[112px] pt-[150px] pb-[150px]">
-                    <p class="text-l font-light mb-4">AG1 CONTAINS YOUR</p>
-                    <ul class="list-none text-xl font-light">
-                        <li>— Multivitamin</li>
-                        <li>— Multimineral</li>
-                        <li>— Stress adaptogens</li>
-                        <li>— Prebiotics</li>
-                        <li>— Probiotics</li>
-                        <li>— Antioxidants</li>
-                        <li>— Superfoods</li>
-                        <li>— Functional mushrooms</li>
-                        <li>— Digestive enzymes</li>
-                    </ul>
+                <div class="flex">
+                    <img class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
+                    <div class="flex flex-col items-center pt-[50px] pr-[60px] xl:pr-[112px] xl:pt-[150px] pb-[150px]">
+                        <p class="hidden lg:flex text-l font-light mb-4">AG1 CONTAINS YOUR</p>
+                        <ul class="m-0 list-none md:text-xl font-light">
+                            <li>— Multivitamin</li>
+                            <li>— Multimineral</li>
+                            <li>— Stress adaptogens</li>
+                            <li>— Prebiotics</li>
+                            <li>— Probiotics</li>
+                            <li>— Antioxidants</li>
+                            <li>— Superfoods</li>
+                            <li>— Functional mushrooms</li>
+                            <li>— Digestive enzymes</li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>
@@ -71,28 +78,28 @@ get_header();
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-20">
-        <div class="grid grid-cols-1 gap-y-8 px-20 md:grid-cols-2 lg:grid-cols-3">
-            <div class="flex items-center px-4">
+        <div class="grid grid-cols-1 gap-y-8 px-6 md:px-20 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/cf299b71bab75fff4fa1c458cabc60ad9d320f66-32x36.svg" alt="Lamp icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Science-driven nutrition <br> supplement</p>
             </div>
-            <div class="flex items-center px-4">
+            <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/c4cab89fc822ed918a26fb4e4275632dd3abf6cb-40x40.svg" alt="Ingredients icon" />
                 <p class="text-[1.3rem] leading-[1.1]">75 ingredients your body <br> can easily absorb</p>
             </div>
-            <div class="flex items-center px-4">
+            <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/f269322de778c178f8e2018869b37689a3e7c206-40x40.svg" alt="Safety icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Third-party certified <br> for safety</p>
             </div>
-            <div class="flex items-center px-4">
+            <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/0d1de9c4acc6bd7e2878e2b4dde4d4096718ada3-40x40.svg" alt="Sweeteners icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Optimized for flavor without <br> artificial sweeteners</p>
             </div>
-            <div class="flex items-center px-4">
+            <div class="flex items-center md:px-4">
                 <img class="h-10 w-10 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/55f73009e2d58186b8ac1983aadfb22cf1f495ff-40x42.svg" alt="Ribbon icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Trusted by leading doctors <br> and scientists</p>
             </div>
-            <div class="flex items-center px-4">
+            <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/b099434bf57baa147ab7236eaad5bce7f2f09b36-40x40.svg" alt="Iteration icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Continuously <br> improved since 2010</p>
             </div>
@@ -101,9 +108,9 @@ get_header();
     </section>
 
     <!-- How it Works Section -->
-    <section id="how-it-works" class="flex flex-col p-20 gap-8">
+    <section id="how-it-works" class="flex flex-col px-6 md:px-20 py-20  gap-8">
         <h1 class="text-[3.25rem] leading-[1]">Here's how AG1 works</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="flex flex-col gap-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/scoop.webp" alt="Scoop" />
                 <p class="text-[1.3rem] leading-[1.1]">Mix one scoop of AG1</p>
