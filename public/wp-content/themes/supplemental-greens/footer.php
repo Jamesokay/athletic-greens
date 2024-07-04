@@ -13,57 +13,84 @@
 ?>
 
 <footer class="w-full bg-vitality-green-dark text-white">
-	<div class="flex w-full justify-center gap-4 p-16 border-b border-white">
+	<div class="flex flex-col-reverse items-center lg:items-start lg:flex-row w-full justify-center gap-4 py-16 border-b border-white px-8 md:px-12 lg:px-16">
 
-		<div class="flex xl:hidden flex-col flex-auto max-w-[50%]">
-			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+		<div class="flex xl:hidden flex-col flex-auto w-full lg:max-w-[50%]">
+			<!-- Shop Section -->
+			<button class="relative inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 				SHOP
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-collapsed h-5 w-5 transition-all duration-300">
+					<?php include_svg('plus-icon.svg'); ?>
+				</span>
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-expanded opacity-0 h-5 w-5 transition-all duration-300">
+					<?php include_svg('minus-icon.svg'); ?>
+				</span>
 			</button>
-
-			<div class="!visible hidden" id="collapseExample" data-twe-collapse-item>
+			<div class="hidden" id="collapseExample" data-twe-collapse-item>
 				<ul class="list-none m-0 text-sm font-light pb-6">
-					<li class="mb-2">The Pouch</li>
-					<li>Travel Packs</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">The Pouch</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Travel Packs</li>
 				</ul>
 			</div>
 			<div class="h-[1px] w-full bg-white"></div>
-			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+
+			<!-- Learn More Section -->
+			<button class="relative inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
 				LEARN MORE
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-collapsed h-5 w-5 transition-all duration-300">
+					<?php include_svg('plus-icon.svg'); ?>
+				</span>
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-expanded opacity-0 h-5 w-5 transition-all duration-300">
+					<?php include_svg('minus-icon.svg'); ?>
+				</span>
 			</button>
-
-			<div class="!visible hidden" id="collapseExample2" data-twe-collapse-item>
+			<div class="hidden" id="collapseExample2" data-twe-collapse-item>
 				<ul class="list-none m-0 text-sm font-light pb-6">
-					<li class="mb-2">Ingredients</li>
-					<li class="mb-2">Research</li>
-					<li class="mb-2">Reviews</li>
-					<li>FAQs</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Ingredients</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Research</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Reviews</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">FAQs</li>
 				</ul>
 			</div>
 			<div class="h-[1px] w-full bg-white"></div>
-			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+
+			<!-- About Section -->
+			<button class="relative inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
 				ABOUT
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-collapsed h-5 w-5 transition-all duration-300">
+					<?php include_svg('plus-icon.svg'); ?>
+				</span>
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-expanded opacity-0 h-5 w-5 transition-all duration-300">
+					<?php include_svg('minus-icon.svg'); ?>
+				</span>
 			</button>
-
-			<div class="!visible hidden" id="collapseExample3" data-twe-collapse-item>
+			<div class="hidden" id="collapseExample3" data-twe-collapse-item>
 				<ul class="list-none m-0 text-sm font-light pb-6">
-					<li class="mb-2">About Us</li>
-					<li class="mb-2">Refer Friends</li>
-					<li class="mb-2">Partners</li>
-					<li class="mb-2">2023 Impact Report</li>
-					<li>Accessibility Statement</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">About Us</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Refer Friends</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Partners</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">2023 Impact Report</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Accessibility Statement</li>
 				</ul>
 			</div>
 			<div class="h-[1px] w-full bg-white"></div>
-			<button class="inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
-				CONTACT
-			</button>
 
-			<div class="!visible hidden" id="collapseExample4" data-twe-collapse-item>
+			<!-- Contact Section -->
+			<button class="relative inline-block w-full text-left py-6 text-xl font-medium uppercase leading-normal text-white transition duration-150 ease-in-out" type="button" data-twe-collapse-init data-twe-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+				CONTACT
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-collapsed h-5 w-5 transition-all duration-300">
+					<?php include_svg('plus-icon.svg'); ?>
+				</span>
+				<span class="absolute right-0 top-1/2 transform -translate-y-1/2 icon-expanded opacity-0 h-5 w-5 transition-all duration-300">
+					<?php include_svg('minus-icon.svg'); ?>
+				</span>
+			</button>
+			<div class="hidden" id="collapseExample4" data-twe-collapse-item>
 				<ul class="list-none m-0 text-sm font-light pb-6">
-					<li class="mb-2">My Account</li>
-					<li class="mb-2">Track My Order</li>
-					<li class="mb-2">Help</li>
-					<li>Careers</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">My Account</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Track My Order</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Help</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Careers</li>
 				</ul>
 			</div>
 			<div class="h-[1px] w-full bg-white"></div>
@@ -74,40 +101,40 @@
 			<div class="flex flex-col flex-auto gap-5">
 				<h3 class="text-lg font-medium">SHOP</h3>
 				<ul class="list-none m-0 text-sm font-light">
-					<li class="mb-2">The Pouch</li>
-					<li>Travel Packs</li>
+					<li class="mb-2 cursor-pointer w-fit transition-all hover:text-vitality-green-hover">The Pouch</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Travel Packs</li>
 				</ul>
 			</div>
 			<div class="flex flex-col flex-auto gap-5">
 				<h3 class="text-lg font-medium">LEARN MORE</h3>
 				<ul class="list-none m-0 text-sm font-light">
-					<li class="mb-2">Ingredients</li>
-					<li class="mb-2">Research</li>
-					<li class="mb-2">Reviews</li>
-					<li>FAQs</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Ingredients</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Research</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Reviews</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">FAQs</li>
 				</ul>
 			</div>
 			<div class="flex flex-col flex-auto gap-5">
 				<h3 class="text-lg font-medium">ABOUT</h3>
 				<ul class="list-none m-0 text-sm font-light">
-					<li class="mb-2">About Us</li>
-					<li class="mb-2">Refer Friends</li>
-					<li class="mb-2">Partners</li>
-					<li class="mb-2">2023 Impact Report</li>
-					<li>Accessibility Statement</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">About Us</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Refer Friends</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Partners</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">2023 Impact Report</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Accessibility Statement</li>
 				</ul>
 			</div>
 			<div class="flex flex-col flex-auto gap-5">
 				<h3 class="text-lg font-medium">CONTACT</h3>
 				<ul class="list-none m-0 text-sm font-light">
-					<li class="mb-2">My Account</li>
-					<li class="mb-2">Track My Order</li>
-					<li class="mb-2">Help</li>
-					<li>Careers</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">My Account</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Track My Order</li>
+					<li class="mb-2 w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Help</li>
+					<li class="w-fit cursor-pointer transition-all hover:text-vitality-green-hover">Careers</li>
 				</ul>
 			</div>
 		</div>
-		<div class="flex flex-auto max-w-[33%] min-w-[320px] ml-auto xl:ml-0 xl:max-w-[25%] flex-col gap-5">
+		<div class="flex w-full md:max-w-[66%] items-center lg:items-start lg:max-w-[33%] min-w-[320px] ml-0 lg:ml-auto xl:ml-0 xl:max-w-[25%] flex-col gap-5">
 			<h3 class="text-lg font-medium">CONNECT</h3>
 			<p class="text-sm font-light">Join Our Newsletter</p>
 			<div class="flex items-center justify-between w-full bg-white rounded-full px-4 py-3">
@@ -117,19 +144,19 @@
 				</span>
 			</div>
 			<div class="hidden xl:flex items-center gap-3">
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('instagram-icon.svg'); ?>
 				</span>
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('facebook-icon.svg'); ?>
 				</span>
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('twitter-icon.svg'); ?>
 				</span>
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('tiktok-icon.svg'); ?>
 				</span>
-				<span class="w-8 h-6">
+				<span class="w-8 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('youtube-icon.svg'); ?>
 				</span>
 			</div>
@@ -138,19 +165,19 @@
 	<div class="relative flex flex-col items-center xl:items-start xl:flex-row w-full xl:p-16 xl:gap-8">
 		<div class="flex flex-col gap-8 items-center py-12 xl:py-0">
 			<div class="flex xl:hidden items-center gap-3">
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('instagram-icon.svg'); ?>
 				</span>
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('facebook-icon.svg'); ?>
 				</span>
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('twitter-icon.svg'); ?>
 				</span>
-				<span class="w-6 h-6">
+				<span class="w-6 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('tiktok-icon.svg'); ?>
 				</span>
-				<span class="w-8 h-6">
+				<span class="w-8 h-6 cursor-pointer transition-all hover:text-vitality-green-hover">
 					<?php include_svg('youtube-icon.svg'); ?>
 				</span>
 			</div>

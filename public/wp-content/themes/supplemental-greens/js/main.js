@@ -1,4 +1,19 @@
 document.addEventListener( 'DOMContentLoaded', function() {
+	// Toggle icons directly on button click
+	const collapseButtons = document.querySelectorAll( '[data-twe-collapse-init]' );
+
+	collapseButtons.forEach( ( button ) => {
+		const collapsedIcon = button.querySelector( '.icon-collapsed' );
+		const expandedIcon = button.querySelector( '.icon-expanded' );
+
+		button.addEventListener( 'click', function() {
+			collapsedIcon.classList.toggle( 'opacity-0' );
+			collapsedIcon.classList.toggle( 'opacity-100' );
+			expandedIcon.classList.toggle( 'opacity-0' );
+			expandedIcon.classList.toggle( 'opacity-100' );
+		} );
+	} );
+
 	// Header scroll effect
 	const header = document.getElementById( 'masthead' );
 	const defaultLogo = document.getElementById( 'default-logo' );

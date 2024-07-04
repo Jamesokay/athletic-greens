@@ -21,7 +21,7 @@ get_header();
                     <p class="leading-[1]">help you feel</p>
                     <p id="rotating-word" class="leading-[1]">energized</p>
                 </div>
-                <p class="text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.</p>
+                <p class="text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.*</p>
                 <div class="flex gap-4">
                     <button class="flex items-center gap-2 border border-2 border-white bg-white text-black rounded-full px-6 py-3 text-xl hover:border-white">
                         <span>Get your AG1 today</span>
@@ -127,7 +127,7 @@ get_header();
     <section id="how-it-works" class="bg-vitality-grey-light flex flex-col p-20 gap-8">
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="flex flex-col gap-10 md:pr-24">
-                <h1 class="text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit</h1>
+                <h1 class="text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
                 <div class="flex flex-col">
                     <div class="flex flex-col pb-3.5 border-b border-1 border-vitality-grey">
                         <div class="flex justify-between font-medium text-lg">
