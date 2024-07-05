@@ -901,6 +901,18 @@ a:active {
 	width: 100%;
 }
 
+.fade-in-up {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+
+  .fade-in-up-visible {
+	opacity: 1;
+	transform: translateY(0);
+  }
+
 @keyframes fadeInOut {
     0%, 100% { opacity: 0; }
     10%, 90% { opacity: 1; }

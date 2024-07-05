@@ -52,13 +52,13 @@ get_header();
     <!-- Features Section -->
     <section id="features" class="py-10 md:py-20 bg-vitality-beige lg:bg-white">
         <div class="flex justify-between md:px-20">
-            <div class="hidden lg:flex flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6">
+            <div class="hidden lg:flex flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6 fade-in-up">
                 <h2 class="text-4xl 2xl:text-[3.25rem] leading-[1]">More-in-one nutrition</h2>
                 <p class="text-xl 2xl:text-2xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
                 <p class="text-xl 2xl:text-2xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
             </div>
             <div class="flex flex-col bg-vitality-beige">
-                <div class="flex lg:hidden flex-col flex-1 mx-6 pb-4 gap-6 border-b border-vitality-grey">
+                <div class="flex lg:hidden flex-col flex-1 mx-6 pb-4 gap-6 border-b border-vitality-grey fade-in-up">
                     <h2 class="text-4xl leading-[1]">More-in-one nutrition</h2>
                     <p class="text-xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
                     <p class="text-xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
@@ -66,7 +66,7 @@ get_header();
                 </div>
                 <div class="flex">
                     <img class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
-                    <div class="flex flex-col items-center pt-[50px] md:pr-[60px] xl:pr-[112px] xl:pt-[150px] xl:pb-[150px]">
+                    <div class="flex flex-col items-center pt-[50px] md:pr-[60px] xl:pr-[112px] xl:pt-[150px] xl:pb-[150px] fade-in-up">
                         <p class="hidden lg:flex text-l font-light mb-4">AG1 CONTAINS YOUR</p>
                         <ul class="m-0 md:ml-12 list-none text-sm md:text-xl font-light">
                             <li class="mb-3 md:mb-2">— Multivitamin</li>
@@ -89,7 +89,7 @@ get_header();
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-10 md:py-20">
-        <div class="grid grid-cols-1 gap-y-8 px-6 md:px-20 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 gap-y-8 px-6 md:px-20 md:grid-cols-2 lg:grid-cols-3 fade-in-up">
             <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/cf299b71bab75fff4fa1c458cabc60ad9d320f66-32x36.svg" alt="Lamp icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Science-driven nutrition <br> supplement</p>
@@ -119,126 +119,130 @@ get_header();
     </section>
 
     <!-- How it Works Section -->
-    <section id="how-it-works" class="flex flex-col px-6 md:px-20 py-10 md:py-20  gap-8">
-        <h1 class="text-4xl 2xl:text-[3.25rem] leading-[1]">Here's how AG1 works</h1>
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="flex flex-col gap-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/scoop.webp" alt="Scoop" />
-                <p class="text-[1.3rem] leading-[1.1]">Mix one scoop of AG1</p>
-            </div>
-            <div class="flex flex-col gap-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cold-water.webp" alt="Cold Water" />
-                <p class="text-[1.3rem] leading-[1.1]">With 8oz of cold water</p>
-            </div>
-            <div class="flex flex-col gap-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shake.webp" alt="Shake" />
-                <p class="text-[1.3rem] leading-[1.1]">Shake</p>
-            </div>
-            <div class="flex flex-col gap-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/enjoy.webp" alt="Enjoy" />
-                <p class="text-[1.3rem] leading-[1.1]">Enjoy the refreshing taste of pineapple and vanilla</p>
+    <section id="how-it-works" class="flex px-6 md:px-20 py-10 md:py-20">
+        <div class="flex flex-col gap-8 fade-in-up">
+            <h1 class="text-4xl 2xl:text-[3.25rem] leading-[1]">Here's how AG1 works</h1>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="flex flex-col gap-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/scoop.webp" alt="Scoop" />
+                    <p class="text-[1.3rem] leading-[1.1]">Mix one scoop of AG1</p>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cold-water.webp" alt="Cold Water" />
+                    <p class="text-[1.3rem] leading-[1.1]">With 8oz of cold water</p>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shake.webp" alt="Shake" />
+                    <p class="text-[1.3rem] leading-[1.1]">Shake</p>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/enjoy.webp" alt="Enjoy" />
+                    <p class="text-[1.3rem] leading-[1.1]">Enjoy the refreshing taste of pineapple and vanilla</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Get Started Section -->
-    <section id="how-it-works" class="bg-vitality-grey-light flex flex-col px-6 py-10 md:px-20 md:py-20 gap-8">
-        <h1 class="flex lg:hidden text-3xl md:text-4xl leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="order-2 lg:order-1 flex flex-col gap-10 lg:pr-24">
-                <h1 class="hidden lg:flex text-4xl 2xl:text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
-                <div class="flex flex-col">
-                    <div class="flex flex-col pb-3.5 border-b border-1 border-vitality-grey">
-                        <div class="flex justify-between font-medium text-lg">
-                            <p>AG1 Pouch</p>
-                            <p>$79/mo USD</p>
-                        </div>
-                        <p class="text-sm text-vitality-grey-dark">30 day supply per pouch, ships every 30 days</p>
-                    </div>
-                    <div class="flex flex-col py-3.5 gap-3.5 border-b border-1 border-vitality-grey">
-                        <p class="text-xs text-vitality-grey-dark">FIRST TIME PURCHASE INCLUDES:</p>
-                        <div class="flex flex-col">
-                            <div class="flex justify-between text-lg">
-                                <p class="font-medium">Welcome Kit</p>
-                                <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$28</span><span class="font-medium">Free</span></div>
+    <section id="get-started" class="bg-vitality-grey-light flex px-6 py-10 md:px-20 md:py-20">
+        <div class="flex flex-col gap-8 fade-in-up">
+            <h1 class="flex lg:hidden text-3xl md:text-4xl leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="order-2 lg:order-1 flex flex-col gap-10 lg:pr-24">
+                    <h1 class="hidden lg:flex text-4xl 2xl:text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
+                    <div class="flex flex-col">
+                        <div class="flex flex-col pb-3.5 border-b border-1 border-vitality-grey">
+                            <div class="flex justify-between font-medium text-lg">
+                                <p>AG1 Pouch</p>
+                                <p>$79/mo USD</p>
                             </div>
-                            <p class="text-sm text-vitality-grey-dark">AG1 Shaker, Scoop and Canister</p>
+                            <p class="text-sm text-vitality-grey-dark">30 day supply per pouch, ships every 30 days</p>
                         </div>
-                        <div class="flex flex-col">
-                            <div class="flex justify-between text-lg">
-                                <p class="font-medium">AG1 Travel Packs (5 count)</p>
-                                <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$18</span><span class="font-medium">Free</span></div>
+                        <div class="flex flex-col py-3.5 gap-3.5 border-b border-1 border-vitality-grey">
+                            <p class="text-xs text-vitality-grey-dark">FIRST TIME PURCHASE INCLUDES:</p>
+                            <div class="flex flex-col">
+                                <div class="flex justify-between text-lg">
+                                    <p class="font-medium">Welcome Kit</p>
+                                    <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$28</span><span class="font-medium">Free</span></div>
+                                </div>
+                                <p class="text-sm text-vitality-grey-dark">AG1 Shaker, Scoop and Canister</p>
                             </div>
-                            <p class="text-sm text-vitality-grey-dark">5 individual servings</p>
-                        </div>
-                    </div>
-                    <div class="flex justify-between pt-3.5 text-lg">
-                        <p class="font-medium">Total</p>
-                        <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$126</span><span class="font-medium">$79/mo USD</span></div>
-                    </div>
-                    <button class="flex justify-center mt-12 mb-4 rounded-full w-full py-4 text-xl text-white border-none bg-vitality-green transition-all duration-300 hover:bg-vitality-green-hover hover:border-none hover:text-black">Buy AG1 Now</button>
-                    <div class="flex gap-2 items-center justify-center w-full">
-                        <p class="text-lg font-light">HSA/FSA eligible with</p>
-                        <img class="w-[100px]" src="https://drinkag1.com/trumed_logo.png" alt="Truemed Logo" />
-                    </div>
-                    <div class="flex w-full justify-center gap-4 mt-8">
-                        <div class="flex items-center gap-2">
-                            <div class="w-4 h-4">
-                                <?php include_svg('tick-icon.svg'); ?>
+                            <div class="flex flex-col">
+                                <div class="flex justify-between text-lg">
+                                    <p class="font-medium">AG1 Travel Packs (5 count)</p>
+                                    <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$18</span><span class="font-medium">Free</span></div>
+                                </div>
+                                <p class="text-sm text-vitality-grey-dark">5 individual servings</p>
                             </div>
-                            <p class="text-xs">90-day money back guarantee</p>
                         </div>
-                        <div class="flex items-center gap-2">
-                            <div class="w-4 h-4">
-                                <?php include_svg('tick-icon.svg'); ?>
+                        <div class="flex justify-between pt-3.5 text-lg">
+                            <p class="font-medium">Total</p>
+                            <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$126</span><span class="font-medium">$79/mo USD</span></div>
+                        </div>
+                        <button class="flex justify-center mt-12 mb-4 rounded-full w-full py-4 text-xl text-white border-none bg-vitality-green transition-all duration-300 hover:bg-vitality-green-hover hover:border-none hover:text-black">Buy AG1 Now</button>
+                        <div class="flex gap-2 items-center justify-center w-full">
+                            <p class="text-lg font-light">HSA/FSA eligible with</p>
+                            <img class="w-[100px]" src="https://drinkag1.com/trumed_logo.png" alt="Truemed Logo" />
+                        </div>
+                        <div class="flex w-full justify-center gap-4 mt-8">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4 h-4">
+                                    <?php include_svg('tick-icon.svg'); ?>
+                                </div>
+                                <p class="text-xs">90-day money back guarantee</p>
                             </div>
-                            <p class="text-xs">Update or cancel anytime</p>
+                            <div class="flex items-center gap-2">
+                                <div class="w-4 h-4">
+                                    <?php include_svg('tick-icon.svg'); ?>
+                                </div>
+                                <p class="text-xs">Update or cancel anytime</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="order-1 lg:order-2 flex h-full items-center">
-                <picture>
-                    <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max 2048w" src="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=320&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
-                </picture>
-            </div>
-        </div>
-        <div class="flex flex-wrap gap-8 justify-center w-full mt-10">
-            <div class="flex gap-2 items-center">
-                <div class="w-6 h-6">
-                    <?php include_svg('tick-icon.svg'); ?>
+                <div class="order-1 lg:order-2 flex h-full items-center">
+                    <picture>
+                        <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max 2048w" src="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=320&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
+                    </picture>
                 </div>
-                <p class="text-sm">VEGAN</p>
             </div>
-            <div class="flex gap-2 items-center">
-                <div class="w-6 h-6">
-                    <?php include_svg('tick-icon.svg'); ?>
+            <div class="flex flex-wrap gap-8 justify-center w-full mt-10">
+                <div class="flex gap-2 items-center">
+                    <div class="w-6 h-6">
+                        <?php include_svg('tick-icon.svg'); ?>
+                    </div>
+                    <p class="text-sm">VEGAN</p>
                 </div>
-                <p class="text-sm">GLUTEN-FREE</p>
-            </div>
-            <div class="flex gap-2 items-center">
-                <div class="w-6 h-6">
-                    <?php include_svg('tick-icon.svg'); ?>
+                <div class="flex gap-2 items-center">
+                    <div class="w-6 h-6">
+                        <?php include_svg('tick-icon.svg'); ?>
+                    </div>
+                    <p class="text-sm">GLUTEN-FREE</p>
                 </div>
-                <p class="text-sm">DAIRY-FREE</p>
-            </div>
-            <div class="flex gap-2 items-center">
-                <div class="w-6 h-6">
-                    <?php include_svg('tick-icon.svg'); ?>
+                <div class="flex gap-2 items-center">
+                    <div class="w-6 h-6">
+                        <?php include_svg('tick-icon.svg'); ?>
+                    </div>
+                    <p class="text-sm">DAIRY-FREE</p>
                 </div>
-                <p class="text-sm">NON GMO</p>
-            </div>
-            <div class="flex gap-2 items-center">
-                <div class="w-6 h-6">
-                    <?php include_svg('tick-icon.svg'); ?>
+                <div class="flex gap-2 items-center">
+                    <div class="w-6 h-6">
+                        <?php include_svg('tick-icon.svg'); ?>
+                    </div>
+                    <p class="text-sm">NON GMO</p>
                 </div>
-                <p class="text-sm">NO SUGAR ADDED</p>
-            </div>
-            <div class="flex gap-2 items-center">
-                <div class="w-6 h-6">
-                    <?php include_svg('tick-icon.svg'); ?>
+                <div class="flex gap-2 items-center">
+                    <div class="w-6 h-6">
+                        <?php include_svg('tick-icon.svg'); ?>
+                    </div>
+                    <p class="text-sm">NO SUGAR ADDED</p>
                 </div>
-                <p class="text-sm">NO ARTIFICIAL SWEETENERS</p>
+                <div class="flex gap-2 items-center">
+                    <div class="w-6 h-6">
+                        <?php include_svg('tick-icon.svg'); ?>
+                    </div>
+                    <p class="text-sm">NO ARTIFICIAL SWEETENERS</p>
+                </div>
             </div>
         </div>
     </section>

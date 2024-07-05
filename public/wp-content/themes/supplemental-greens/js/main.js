@@ -1,4 +1,19 @@
 document.addEventListener( 'DOMContentLoaded', function() {
+	// Fade-in logic
+	const observer = new IntersectionObserver( ( entries ) => {
+		entries.forEach( ( entry ) => {
+			if ( entry.isIntersecting ) {
+				entry.target.classList.add( 'fade-in-up-visible' );
+				observer.unobserve( entry.target );
+			}
+		} );
+	}, { threshold: 0.3 } );
+
+	const elements = document.querySelectorAll( '.fade-in-up' );
+	elements.forEach( ( element ) => {
+		observer.observe( element );
+	} );
+
 	// Toggle icons directly on button click
 	const collapseButtons = document.querySelectorAll( '[data-twe-collapse-init]' );
 
