@@ -892,7 +892,6 @@ a:active {
 	display: grid;
 	grid-template-areas: 'a';
 	align-items: stretch;
-	height: 100%;
 	width: 100%;
 }
 

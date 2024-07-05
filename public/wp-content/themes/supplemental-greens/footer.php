@@ -186,14 +186,14 @@
 			</div>
 			<p class="flex xl:hidden">© 2024 AG1</p>
 		</div>
-		<div class="order-3 xl:order-2 flex flex-auto items-center xl:items-start max-w-[95%] md:max-w-[65%] xl:max-w-[42.5%] flex-col font-light gap-4 py-12 xl:py-0">
+		<div class="order-3 xl:order-2 flex flex-auto items-center xl:items-start max-w-[95%] md:max-w-[65%] xl:max-w-[42.5%] flex-col font-light gap-4 px-4 py-12 xl:py-0">
 			<div class="border border-white px-3 py-4 text-xs">
 				<p>* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
 			</div>
 			<p class="text-xs">Information on this site is provided for informational purposes only. It is not meant to substitute for medical advice from your physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. Carefully read all product documentation. If you have or suspect that you have a medical problem, promptly contact your regular health care provider.</p>
 			<p class="text-xs">** Offer valid for new subscribers only.</p>
-			<div class="flex items-center gap-4">
-				<p class="text-sm">
+			<div class="flex flex-col md:flex-row items-center gap-4">
+				<p class="flex flex-col md:flex-row items-center text-sm">
 					Your privacy is our priority. Learn more:
 					<span class="underline">Your Privacy Choices</span>
 				</p>
@@ -201,7 +201,7 @@
 					<?php include_svg('privacy-icon.svg'); ?>
 				</span>
 			</div>
-			<div class="flex gap-8 text-sm mt-2">
+			<div class="text-center flex flex-col md:flex-row md:text-left gap-4 md:gap-8 text-sm mt-2">
 				<p>Privacy</p>
 				<p>Do Not Sell My Personal Info</p>
 				<p>Terms & Conditions</p>

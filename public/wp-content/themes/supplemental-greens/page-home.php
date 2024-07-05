@@ -10,28 +10,38 @@ get_header();
 <main id="primary" class="site-main">
 
     <!-- Hero Section -->
-    <section id="hero" class="relative flex w-full h-full overflow-hidden">
-        <div class="hero-video-container absolute top-0 left-0">
+    <section id="hero" class="relative flex flex-col w-full h-full overflow-hidden">
+        <div class="hero-video-container h-[320px] md:h-full md:absolute top-0 left-0">
             <video class="hero-video object-cover" autoplay loop muted preload="none">
                 <source src="https://cdn.sanity.io/files/jf30o7wb/production/930090e1d091f32ab79c1d795a86a30ec092ab53.mp4">
             </video>
         </div>
-        <div class=" z-20 flex w-full h-[85dvh] lg:h-[100dvh] px-12">
-            <div class="flex flex-col justify-center text-white max-w-[75%] xl:max-w-[41%] gap-4">
-                <div class="flex flex-col hero-text text-7xl xl:text-8xl">
-                    <p class="leading-[1]">We're here to</p>
-                    <p class="leading-[1]">help you feel</p>
-                    <p id="rotating-word" class="leading-[1]">energized</p>
+        <div class=" z-20 flex w-full md:h-[85dvh] lg:h-[100dvh]">
+            <div class="bg-white md:bg-transparent flex flex-col w-full justify-center text-white h-fit md:h-full self-end max-w-none md:max-w-[75%] xl:max-w-[45%] gap-4 py-10 px-6 md:px-12">
+                <div class="text-black md:text-white flex flex-col items-center md:items-start hero-text text-7xl xl:text-8xl">
+                    <p class="hidden md:flex leading-[1]">We're here to</p>
+                    <p class="hidden md:flex leading-[1]">help you feel</p>
+                    <p class="flex md:hidden leading-[1] text-4xl">We're here to help you feel</p>
+                    <p id="rotating-word" class="text-6xl md:text-7xl xl:text-8xl leading-[1]">energized</p>
                 </div>
-                <p class="text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.*</p>
-                <div class="flex gap-4">
-                    <button class="flex items-center gap-2 border border-2 border-white bg-white text-black rounded-full px-6 py-3 text-xl hover:border-white">
+                <p class="text-black text-center md:text-left md:text-white md:text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.*</p>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <button class="hidden md:flex items-center gap-2 border border-2 border-white bg-vitality-green bg-white text-black rounded-full px-6 py-3 text-xl transition-all duration-300 hover:border-white hover:bg-vitality-green-hover hover:border-vitality-green-hover">
                         <span>Get your AG1 today</span>
                         <span class="flex w-6 h-6">
                             <?php include_svg('arrow-icon.svg'); ?>
                         </span>
                     </button>
-                    <button class="border border-2 border-white bg-transparent text-white rounded-full px-6 py-3 text-xl hover:border-white">
+                    <button class="hidden md:flex border border-2 border-white bg-transparent text-white rounded-full px-6 py-3 text-xl hover:border-white">
+                        <span>What is AG1?</span>
+                    </button>
+                    <button class="flex md:hidden items-center justify-center gap-2 border-2 border-vitality-green bg-vitality-green text-white md:bg-white rounded-full px-6 py-3 text-lg transition-all duration-300 hover:bg-vitality-green-hover hover:text-black hover:border-vitality-green-hover">
+                        <span>Get your AG1 today</span>
+                        <span class="flex w-6 h-6">
+                            <?php include_svg('arrow-icon.svg'); ?>
+                        </span>
+                    </button>
+                    <button class="flex items-center justify-center md:hidden border-2 border-vitality-green bg-transparent text-vitality-green rounded-full px-6 py-3 text-lg transition-all duration-300 hover:border-vitality-green-hover hover:bg-vitality-green-hover hover:text-black">
                         <span>What is AG1?</span>
                     </button>
                 </div>
@@ -40,18 +50,19 @@ get_header();
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="py-20 bg-vitality-beige lg:bg-white">
-        <div class="flex justify-between px-8 md:px-20">
+    <section id="features" class="py-10 md:py-20 bg-vitality-beige lg:bg-white">
+        <div class="flex justify-between px-6 md:px-20">
             <div class="hidden lg:flex flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6">
                 <h2 class="text-4xl 2xl:text-[3.25rem] leading-[1]">More-in-one nutrition</h2>
                 <p class="text-xl 2xl:text-2xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
                 <p class="text-xl 2xl:text-2xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
             </div>
             <div class="flex flex-col bg-vitality-beige">
-                <div class="flex lg:hidden flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6">
+                <div class="flex lg:hidden flex-col flex-1 pb-4 gap-6 border-b border-vitality-grey">
                     <h2 class="text-4xl leading-[1]">More-in-one nutrition</h2>
                     <p class="text-xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
                     <p class="text-xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
+                    <p>AG1 CONTAINS YOUR:</p>
                 </div>
                 <div class="flex">
                     <img class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
@@ -77,7 +88,7 @@ get_header();
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="py-20">
+    <section id="testimonials" class="py-10 md:py-20">
         <div class="grid grid-cols-1 gap-y-8 px-6 md:px-20 md:grid-cols-2 lg:grid-cols-3">
             <div class="flex items-center md:px-4">
                 <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/cf299b71bab75fff4fa1c458cabc60ad9d320f66-32x36.svg" alt="Lamp icon" />
@@ -108,8 +119,8 @@ get_header();
     </section>
 
     <!-- How it Works Section -->
-    <section id="how-it-works" class="flex flex-col px-6 md:px-20 py-20  gap-8">
-        <h1 class="text-[3.25rem] leading-[1]">Here's how AG1 works</h1>
+    <section id="how-it-works" class="flex flex-col px-6 md:px-20 py-10 md:py-20  gap-8">
+        <h1 class="text-4xl 2xl:text-[3.25rem] leading-[1]">Here's how AG1 works</h1>
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="flex flex-col gap-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/scoop.webp" alt="Scoop" />
@@ -131,10 +142,11 @@ get_header();
     </section>
 
     <!-- Get Started Section -->
-    <section id="how-it-works" class="bg-vitality-grey-light flex flex-col p-20 gap-8">
-        <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col gap-10 md:pr-24">
-                <h1 class="text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
+    <section id="how-it-works" class="bg-vitality-grey-light flex flex-col px-6 py-10 md:px-20 md:py-20 gap-8">
+        <h1 class="flex lg:hidden text-3xl md:text-4xl leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="order-2 lg:order-1 flex flex-col gap-10 lg:pr-24">
+                <h1 class="hidden lg:flex text-4xl 2xl:text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
                 <div class="flex flex-col">
                     <div class="flex flex-col pb-3.5 border-b border-1 border-vitality-grey">
                         <div class="flex justify-between font-medium text-lg">
@@ -185,13 +197,13 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="flex h-full items-center">
+            <div class="order-1 lg:order-2 flex h-full items-center">
                 <picture>
                     <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max 2048w" src="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=320&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
                 </picture>
             </div>
         </div>
-        <div class="flex flew-wrap gap-8 justify-center w-full mt-10">
+        <div class="flex flex-wrap gap-8 justify-center w-full mt-10">
             <div class="flex gap-2 items-center">
                 <div class="w-6 h-6">
                     <?php include_svg('tick-icon.svg'); ?>
