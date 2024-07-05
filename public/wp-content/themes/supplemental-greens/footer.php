@@ -193,7 +193,7 @@
 			<p class="text-xs">Information on this site is provided for informational purposes only. It is not meant to substitute for medical advice from your physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. Carefully read all product documentation. If you have or suspect that you have a medical problem, promptly contact your regular health care provider.</p>
 			<p class="text-xs">** Offer valid for new subscribers only.</p>
 			<div class="flex flex-col md:flex-row items-center gap-4">
-				<p class="flex flex-col md:flex-row items-center text-sm">
+				<p class="flex flex-col md:flex-row gap-2 items-center text-sm">
 					Your privacy is our priority. Learn more:
 					<span class="underline">Your Privacy Choices</span>
 				</p>

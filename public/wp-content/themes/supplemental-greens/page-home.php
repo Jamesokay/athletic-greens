@@ -26,13 +26,13 @@ get_header();
                 </div>
                 <p class="text-black text-center md:text-left md:text-white md:text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.*</p>
                 <div class="flex flex-col md:flex-row gap-4">
-                    <button class="hidden md:flex items-center gap-2 border border-2 border-white bg-vitality-green bg-white text-black rounded-full px-6 py-3 text-xl transition-all duration-300 hover:border-white hover:bg-vitality-green-hover hover:border-vitality-green-hover">
+                    <button class="hidden md:flex items-center gap-2 border border-2 border-white bg-vitality-green bg-white text-black rounded-full px-6 py-3 text-xl transition-all duration-300 hover:bg-vitality-green-hover hover:border-vitality-green-hover">
                         <span>Get your AG1 today</span>
                         <span class="flex w-6 h-6">
                             <?php include_svg('arrow-icon.svg'); ?>
                         </span>
                     </button>
-                    <button class="hidden md:flex border border-2 border-white bg-transparent text-white rounded-full px-6 py-3 text-xl hover:border-white">
+                    <button class="hidden md:flex border border-2 border-white bg-transparent text-white rounded-full px-6 py-3 text-xl transition-all duration-300 hover:bg-vitality-green-hover hover:border-vitality-green-hover hover:text-black">
                         <span>What is AG1?</span>
                     </button>
                     <button class="flex md:hidden items-center justify-center gap-2 border-2 border-vitality-green bg-vitality-green text-white md:bg-white rounded-full px-6 py-3 text-lg transition-all duration-300 hover:bg-vitality-green-hover hover:text-black hover:border-vitality-green-hover">
@@ -51,14 +51,14 @@ get_header();
 
     <!-- Features Section -->
     <section id="features" class="py-10 md:py-20 bg-vitality-beige lg:bg-white">
-        <div class="flex justify-between px-6 md:px-20">
+        <div class="flex justify-between md:px-20">
             <div class="hidden lg:flex flex-col flex-1 pr-6 2xl:pr-0 2xl:max-w-[27.5%] gap-6">
                 <h2 class="text-4xl 2xl:text-[3.25rem] leading-[1]">More-in-one nutrition</h2>
                 <p class="text-xl 2xl:text-2xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
                 <p class="text-xl 2xl:text-2xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
             </div>
             <div class="flex flex-col bg-vitality-beige">
-                <div class="flex lg:hidden flex-col flex-1 pb-4 gap-6 border-b border-vitality-grey">
+                <div class="flex lg:hidden flex-col flex-1 mx-6 pb-4 gap-6 border-b border-vitality-grey">
                     <h2 class="text-4xl leading-[1]">More-in-one nutrition</h2>
                     <p class="text-xl font-light">AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.</p>
                     <p class="text-xl font-medium">Simply put, it’s a way to invest in your health now and in the long run.</p>
@@ -66,17 +66,17 @@ get_header();
                 </div>
                 <div class="flex">
                     <img class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
-                    <div class="flex flex-col items-center pt-[50px] pr-[60px] xl:pr-[112px] xl:pt-[150px] pb-[150px]">
+                    <div class="flex flex-col items-center pt-[50px] md:pr-[60px] xl:pr-[112px] xl:pt-[150px] xl:pb-[150px]">
                         <p class="hidden lg:flex text-l font-light mb-4">AG1 CONTAINS YOUR</p>
-                        <ul class="m-0 list-none md:text-xl font-light">
-                            <li>— Multivitamin</li>
-                            <li>— Multimineral</li>
-                            <li>— Stress adaptogens</li>
-                            <li>— Prebiotics</li>
-                            <li>— Probiotics</li>
-                            <li>— Antioxidants</li>
-                            <li>— Superfoods</li>
-                            <li>— Functional mushrooms</li>
+                        <ul class="m-0 md:ml-12 list-none text-sm md:text-xl font-light">
+                            <li class="mb-3 md:mb-2">— Multivitamin</li>
+                            <li class="mb-3 md:mb-2">— Multimineral</li>
+                            <li class="mb-3 md:mb-2">— Stress adaptogens</li>
+                            <li class="mb-3 md:mb-2">— Prebiotics</li>
+                            <li class="mb-3 md:mb-2">— Probiotics</li>
+                            <li class="mb-3 md:mb-2">— Antioxidants</li>
+                            <li class="mb-3 md:mb-2">— Superfoods</li>
+                            <li class="mb-3 md:mb-2">— Functional mushrooms</li>
                             <li>— Digestive enzymes</li>
                         </ul>
                     </div>
