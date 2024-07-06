@@ -1,4 +1,24 @@
 document.addEventListener( 'DOMContentLoaded', function() {
+	// Sidebar logic
+	const sidebarButton = document.getElementById( 'menu-button' );
+	const sidebar = document.getElementById( 'sidebar' );
+	const closeMenuButton = document.getElementById( 'close-menu-button' );
+	const body = document.body;
+
+	if ( sidebarButton && sidebar ) {
+		sidebarButton.addEventListener( 'click', function() {
+			sidebar.classList.toggle( 'active' );
+			body.classList.toggle( 'overflow-hidden' );
+		} );
+	}
+
+	if ( closeMenuButton && sidebar ) {
+		closeMenuButton.addEventListener( 'click', function() {
+			sidebar.classList.remove( 'active' );
+			body.classList.remove( 'overflow-hidden' );
+		} );
+	}
+
 	// Fade-in logic
 	const observer = new IntersectionObserver( ( entries ) => {
 		entries.forEach( ( entry ) => {

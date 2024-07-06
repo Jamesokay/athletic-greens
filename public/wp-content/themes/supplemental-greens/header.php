@@ -27,7 +27,7 @@
 	<?php wp_body_open(); ?>
 	<div id="page" class="site overscroll-none">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'supplemental-greens'); ?></a>
-		<header id="masthead" class="flex w-full items-center justify-between h-[80px] fixed z-50 left-0 px-6 md:px-12 transition-colors duration-300 border-b border-1 border-transparent">
+		<header id="masthead" class="flex w-full items-center justify-between h-[80px] fixed z-40 left-0 px-6 md:px-12 transition-colors duration-300 border-b border-1 border-transparent">
 			<div class="flex items-center gap-4">
 				<button id="menu-button" class="bg-transparent appearance-none border-none text-white transition-all duration-300">
 					<span class="flex w-5 h-5 md:w-6 md:h-6">
@@ -55,5 +55,3 @@
 				</div>
 			</div>
 		</header>
-	</div>
-	<?php wp_footer(); ?>
