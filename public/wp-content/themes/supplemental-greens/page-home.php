@@ -144,15 +144,15 @@ get_header();
     </section>
 
     <!-- Get Started Section -->
-    <section id="get-started" class="bg-vitality-grey-light flex px-6 py-10 md:px-20 md:py-20">
-        <div class="flex flex-col gap-8 fade-in-up">
+    <section id="get-started" class="bg-vitality-grey-light flex py-10 px-6 md:px-20 md:py-20">
+        <div class="flex flex-col items-center gap-8 fade-in-up">
             <h1 class="flex lg:hidden text-3xl md:text-4xl leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
-            <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
                 <div class="order-2 lg:order-1 flex flex-col gap-10 lg:pr-24">
                     <h1 class="hidden lg:flex text-4xl 2xl:text-[3.25rem] leading-[1] m-0">Get started with your AG1 Welcome Kit**</h1>
                     <div class="flex flex-col">
                         <div class="flex flex-col pb-3.5 border-b border-1 border-vitality-grey">
-                            <div class="flex justify-between font-medium text-lg">
+                            <div class="flex justify-between font-medium md:text-lg">
                                 <p>AG1 Pouch</p>
                                 <p>$79/mo USD</p>
                             </div>
@@ -161,30 +161,32 @@ get_header();
                         <div class="flex flex-col py-3.5 gap-3.5 border-b border-1 border-vitality-grey">
                             <p class="text-xs text-vitality-grey-dark">FIRST TIME PURCHASE INCLUDES:</p>
                             <div class="flex flex-col">
-                                <div class="flex justify-between text-lg">
+                                <div class="flex justify-between md:text-lg">
                                     <p class="font-medium">Welcome Kit</p>
                                     <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$28</span><span class="font-medium">Free</span></div>
                                 </div>
                                 <p class="text-sm text-vitality-grey-dark">AG1 Shaker, Scoop and Canister</p>
                             </div>
                             <div class="flex flex-col">
-                                <div class="flex justify-between text-lg">
+                                <div class="flex justify-between md:text-lg">
                                     <p class="font-medium">AG1 Travel Packs (5 count)</p>
                                     <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$18</span><span class="font-medium">Free</span></div>
                                 </div>
                                 <p class="text-sm text-vitality-grey-dark">5 individual servings</p>
                             </div>
                         </div>
-                        <div class="flex justify-between pt-3.5 text-lg">
+                        <div class="flex justify-between pt-3.5 md:text-lg">
                             <p class="font-medium">Total</p>
                             <div class="flex gap-2"><span class="text-vitality-grey-medium line-through">$126</span><span class="font-medium">$79/mo USD</span></div>
                         </div>
-                        <button class="flex justify-center mt-12 mb-4 rounded-full w-full py-4 text-xl text-white border-none bg-vitality-green transition-all duration-300 hover:bg-vitality-green-hover hover:border-none hover:text-black">Buy AG1 Now</button>
+                        <button class="flex justify-center mt-8 md:mt-12 mb-4 rounded-full w-full py-3 md:py-4 text-lg md:text-xl text-white border-none bg-vitality-green transition-colors duration-300 hover:bg-vitality-green-hover hover:border-none hover:text-black">
+                            Buy AG1 Now
+                        </button>
                         <div class="flex gap-2 items-center justify-center w-full">
-                            <p class="text-lg font-light">HSA/FSA eligible with</p>
+                            <p class="md:text-lg font-light">HSA/FSA eligible with</p>
                             <img class="w-[100px]" src="https://drinkag1.com/trumed_logo.png" alt="Truemed Logo" />
                         </div>
-                        <div class="flex w-full justify-center gap-4 mt-8">
+                        <div class="flex flex-col md:flex-row w-full items-center justify-center gap-4 mt-8">
                             <div class="flex items-center gap-2">
                                 <div class="w-4 h-4">
                                     <?php include_svg('tick-icon.svg'); ?>
@@ -206,7 +208,7 @@ get_header();
                     </picture>
                 </div>
             </div>
-            <div class="flex flex-wrap gap-8 justify-center w-full mt-10">
+            <div class="grid gap-8 justify-center w-full xl:w-[80%] mt-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
                 <div class="flex gap-2 items-center">
                     <div class="w-6 h-6">
                         <?php include_svg('tick-icon.svg'); ?>
@@ -244,6 +246,8 @@ get_header();
                     <p class="text-sm">NO ARTIFICIAL SWEETENERS</p>
                 </div>
             </div>
+
+
         </div>
     </section>
 
