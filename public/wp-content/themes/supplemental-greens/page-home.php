@@ -252,8 +252,8 @@ get_header();
     </section>
 
     <!-- Quality Section -->
-    <section id="quality" class="flex justify-between py-10 px-6 md:px-20 md:py-20">
-        <div class="flex flex-col w-full max-w-[47.5%]">
+    <section id="quality" class="flex flex-col flex-col-reverse lg:flex-row justify-between py-10 px-6 md:px-20 md:py-20">
+        <div class="flex flex-auto flex-col pr-20 bg-white z-20">
             <div class="flex flex-col fade-in-up">
                 <h1 class="text-4xl 2xl:text-[3.25rem] leading-[1]">We set the bar for quality — and keep raising it</h1>
                 <p class="text-xl">AG1 is held to the highest quality standards. From our research, to sourcing, to manufacturing and testing, we go above and beyond industry standards to bring you a safe and effective product.</p>
@@ -261,19 +261,19 @@ get_header();
             <div class="flex flex-col fade-in-up">
                 <div class="my-8 grid gap-6 grid-cols-2">
                     <div class="flex flex-col font-medium py-4 gap-4">
-                        <h2 class="text-8xl">1</h1>
+                        <h2 class="text-7xl 2xl:text-8xl">1</h1>
                             <p>Obsessively curated product</p>
                     </div>
                     <div class="flex flex-col font-medium py-4 gap-4">
-                        <h2 class="text-8xl">75</h1>
+                        <h2 class="text-7xl 2xl:text-8xl">75</h1>
                             <p>Ingredients chosen for maximum impact</p>
                     </div>
                     <div class="flex flex-col font-medium py-4 gap-4">
-                        <h2 class="text-8xl">950</h1>
+                        <h2 class="text-7xl 2xl:text-8xl">950</h1>
                             <p>Product safety tests</p>
                     </div>
                     <div class="flex flex-col font-medium py-4 gap-4">
-                        <h2 class="text-8xl">52</h1>
+                        <h2 class="text-7xl 2xl:text-8xl">52</h1>
                             <p>Iterations and counting</p>
                     </div>
                 </div>
@@ -284,8 +284,8 @@ get_header();
             </div>
         </div>
 
-        <div class="flex w-full max-w-[40%]">
-            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" />
+        <div class="relative flex flex-auto">
+            <img class="h-full w-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" />
         </div>
     </section>
 
