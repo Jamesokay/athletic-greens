@@ -251,6 +251,44 @@ get_header();
         </div>
     </section>
 
+    <!-- Quality Section -->
+    <section id="quality" class="flex justify-between py-10 px-6 md:px-20 md:py-20">
+        <div class="flex flex-col w-full max-w-[47.5%]">
+            <div class="flex flex-col fade-in-up">
+                <h1 class="text-4xl 2xl:text-[3.25rem] leading-[1]">We set the bar for quality — and keep raising it</h1>
+                <p class="text-xl">AG1 is held to the highest quality standards. From our research, to sourcing, to manufacturing and testing, we go above and beyond industry standards to bring you a safe and effective product.</p>
+            </div>
+            <div class="flex flex-col fade-in-up">
+                <div class="my-8 grid gap-6 grid-cols-2">
+                    <div class="flex flex-col font-medium py-4 gap-4">
+                        <h2 class="text-8xl">1</h1>
+                            <p>Obsessively curated product</p>
+                    </div>
+                    <div class="flex flex-col font-medium py-4 gap-4">
+                        <h2 class="text-8xl">75</h1>
+                            <p>Ingredients chosen for maximum impact</p>
+                    </div>
+                    <div class="flex flex-col font-medium py-4 gap-4">
+                        <h2 class="text-8xl">950</h1>
+                            <p>Product safety tests</p>
+                    </div>
+                    <div class="flex flex-col font-medium py-4 gap-4">
+                        <h2 class="text-8xl">52</h1>
+                            <p>Iterations and counting</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <img class="h-[50px] w-auto" src="https://cdn.sanity.io/images/jf30o7wb/production/951e3b9a69bbe1081ff698b2fcab10fdb6efeafe-148x54.svg" alt="Certified sport label" />
+                    <img class="h-[50px] w-auto" src="https://cdn.sanity.io/images/jf30o7wb/production/5453ce55a8b4767ce86f1f435cfaa4a31bb353d2-91x56.svg" alt="TGA facility label" />
+                </div>
+            </div>
+        </div>
+
+        <div class="flex w-full max-w-[40%]">
+            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" />
+        </div>
+    </section>
+
 </main>
 <?php get_sidebar(); ?>
 <?php
