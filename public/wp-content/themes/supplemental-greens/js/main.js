@@ -27,7 +27,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
 				observer.unobserve( entry.target );
 			}
 		} );
-	}, { threshold: 0.3 } );
+	}, { threshold: 0.4 } );
 
 	const elements = document.querySelectorAll( '.fade-in-up' );
 	elements.forEach( ( element ) => {
