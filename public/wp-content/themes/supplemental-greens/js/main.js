@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 document.addEventListener( 'DOMContentLoaded', function() {
 	// Sidebar logic
 	const sidebarButton = document.getElementById( 'menu-button' );
@@ -90,21 +91,19 @@ document.addEventListener( 'DOMContentLoaded', function() {
 	}
 
 	// Rotating words effect
-	const words = [ 'energized', 'balanced', 'strong', 'focused', 'healthy' ];
+	const words = document.querySelectorAll( '.rotating-word' );
 	let currentIndex = 0;
-	const rotatingWordElement = document.getElementById( 'rotating-word' );
 
-	if ( rotatingWordElement ) {
-		setInterval( () => {
-			rotatingWordElement.classList.remove( 'fade-in' );
-			rotatingWordElement.classList.add( 'fade-out' );
+	function rotateWords() {
+	  words[ currentIndex ].classList.remove( 'opacity-100' );
+	  words[ currentIndex ].classList.add( 'opacity-0' );
 
-			setTimeout( () => {
-				currentIndex = ( currentIndex + 1 ) % words.length;
-				rotatingWordElement.textContent = words[ currentIndex ];
-				rotatingWordElement.classList.remove( 'fade-out' );
-				rotatingWordElement.classList.add( 'fade-in' );
-			}, 1000 ); // Match this with the CSS animation duration for fadeOut
-		}, 3000 ); // Change word every 3 seconds
+	  setTimeout( () => {
+			currentIndex = ( currentIndex + 1 ) % words.length;
+			words[ currentIndex ].classList.remove( 'opacity-0' );
+			words[ currentIndex ].classList.add( 'opacity-100' );
+	  }, 500 ); // Match this with the CSS transition duration for opacity
 	}
+
+	setInterval( rotateWords, 3000 );
 } );

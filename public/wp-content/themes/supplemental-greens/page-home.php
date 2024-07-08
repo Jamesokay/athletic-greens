@@ -12,19 +12,24 @@ get_header();
     <!-- Hero Section -->
     <section id="hero" class="relative flex flex-col w-full h-full overflow-hidden">
         <div class="hero-video-container h-[320px] md:h-full md:absolute top-0 left-0">
-            <video class="hero-video object-cover" autoplay loop muted preload="none">
+            <video class="hero-video object-cover" autoplay loop muted playsinline preload="none">
                 <source src="https://cdn.sanity.io/files/jf30o7wb/production/930090e1d091f32ab79c1d795a86a30ec092ab53.mp4">
             </video>
         </div>
         <div class="z-20 flex w-full md:h-[85dvh] lg:h-[100dvh]">
             <div class="bg-white md:bg-transparent flex flex-col w-full justify-center text-white h-fit md:h-full self-end max-w-none md:max-w-[75%] xl:max-w-[45%] gap-4 py-10 px-6 md:px-12">
-                <div class="text-black md:text-white flex flex-col items-center md:items-start hero-text text-7xl xl:text-8xl">
+                <div class="text-black md:text-white flex flex-col items-center md:items-start hero-text text-7xl xl:text-8xl relative">
                     <p class="hidden md:flex leading-[1]">We're here to</p>
                     <p class="hidden md:flex leading-[1]">help you feel</p>
                     <p class="flex md:hidden leading-[1] text-4xl">We're here to help you feel</p>
-                    <p id="rotating-word" class="text-6xl md:text-7xl xl:text-8xl leading-[1] fade-in">energized</p>
+                    <div class="w-full relative">
+                        <p id="word-0" class="rotating-word text-center md:text-left text-6xl md:text-7xl xl:text-8xl leading-[1] opacity-100 transition-opacity duration-500">energized</p>
+                        <p id="word-1" class="rotating-word absolute left-1/2 transform -translate-x-1/2 top-0 md:left-0 md:translate-x-0 text-6xl md:text-7xl xl:text-8xl leading-[1] opacity-0 transition-opacity duration-500">balanced</p>
+                        <p id="word-2" class="rotating-word absolute left-1/2 transform -translate-x-1/2 top-0 md:left-0 md:translate-x-0 text-6xl md:text-7xl xl:text-8xl leading-[1] opacity-0 transition-opacity duration-500">strong</p>
+                        <p id="word-3" class="rotating-word absolute left-1/2 transform -translate-x-1/2 top-0 md:left-0 md:translate-x-0 text-6xl md:text-7xl xl:text-8xl leading-[1] opacity-0 transition-opacity duration-500">focused</p>
+                        <p id="word-4" class="rotating-word absolute left-1/2 transform -translate-x-1/2 top-0 md:left-0 md:translate-x-0 text-6xl md:text-7xl xl:text-8xl leading-[1] opacity-0 transition-opacity duration-500">healthy</p>
+                    </div>
                 </div>
-
                 <p class="text-black text-center md:text-left md:text-white md:text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.*</p>
                 <div class="flex flex-col md:flex-row gap-4">
                     <button class="hidden md:flex items-center gap-2 border border-2 border-white bg-vitality-green bg-white text-black rounded-full px-6 py-3 text-xl transition-all duration-300 hover:bg-vitality-green-hover hover:border-vitality-green-hover">
