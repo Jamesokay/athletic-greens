@@ -16,7 +16,7 @@ get_header();
                 <source src="https://cdn.sanity.io/files/jf30o7wb/production/930090e1d091f32ab79c1d795a86a30ec092ab53.mp4">
             </video>
         </div>
-        <div class=" z-20 flex w-full md:h-[85dvh] lg:h-[100dvh]">
+        <div class="z-20 flex w-full md:h-[85dvh] lg:h-[100dvh]">
             <div class="bg-white md:bg-transparent flex flex-col w-full justify-center text-white h-fit md:h-full self-end max-w-none md:max-w-[75%] xl:max-w-[45%] gap-4 py-10 px-6 md:px-12">
                 <div class="text-black md:text-white flex flex-col items-center md:items-start hero-text text-7xl xl:text-8xl">
                     <p class="hidden md:flex leading-[1]">We're here to</p>
@@ -81,9 +81,7 @@ get_header();
                         </ul>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
 
@@ -115,7 +113,6 @@ get_header();
                 <p class="text-[1.3rem] leading-[1.1]">Continuously <br> improved since 2010</p>
             </div>
         </div>
-
     </section>
 
     <!-- How it Works Section -->
@@ -204,7 +201,7 @@ get_header();
                 </div>
                 <div class="order-1 lg:order-2 flex h-full items-center">
                     <picture>
-                        <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max 2048w" src="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=320&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
+                        <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
                     </picture>
                 </div>
             </div>
@@ -246,8 +243,6 @@ get_header();
                     <p class="text-sm">NO ARTIFICIAL SWEETENERS</p>
                 </div>
             </div>
-
-
         </div>
     </section>
 
@@ -291,11 +286,7 @@ get_header();
         </div>
     </section>
 
-
-
-
 </main>
+
 <?php get_sidebar(); ?>
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>
