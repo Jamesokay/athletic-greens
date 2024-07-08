@@ -22,8 +22,9 @@ get_header();
                     <p class="hidden md:flex leading-[1]">We're here to</p>
                     <p class="hidden md:flex leading-[1]">help you feel</p>
                     <p class="flex md:hidden leading-[1] text-4xl">We're here to help you feel</p>
-                    <p id="rotating-word" class="text-6xl md:text-7xl xl:text-8xl leading-[1]">energized</p>
+                    <p id="rotating-word" class="text-6xl md:text-7xl xl:text-8xl leading-[1] fade-in">energized</p>
                 </div>
+
                 <p class="text-black text-center md:text-left md:text-white md:text-xl">AG1 is a daily Foundational Nutrition supplement that supports whole body health.*</p>
                 <div class="flex flex-col md:flex-row gap-4">
                     <button class="hidden md:flex items-center gap-2 border border-2 border-white bg-vitality-green bg-white text-black rounded-full px-6 py-3 text-xl transition-all duration-300 hover:bg-vitality-green-hover hover:border-vitality-green-hover">

@@ -96,8 +96,15 @@ document.addEventListener( 'DOMContentLoaded', function() {
 
 	if ( rotatingWordElement ) {
 		setInterval( () => {
-			currentIndex = ( currentIndex + 1 ) % words.length;
-			rotatingWordElement.textContent = words[ currentIndex ];
-		}, 4000 ); // Change word every 4 seconds
+			rotatingWordElement.classList.remove( 'fade-in' );
+			rotatingWordElement.classList.add( 'fade-out' );
+
+			setTimeout( () => {
+				currentIndex = ( currentIndex + 1 ) % words.length;
+				rotatingWordElement.textContent = words[ currentIndex ];
+				rotatingWordElement.classList.remove( 'fade-out' );
+				rotatingWordElement.classList.add( 'fade-in' );
+			}, 1000 ); // Match this with the CSS animation duration for fadeOut
+		}, 3000 ); // Change word every 3 seconds
 	}
 } );

@@ -1356,11 +1356,6 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.hover\:border-vitality-green:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(12 61 61 / var(--tw-border-opacity));
-}
-
 .hover\:bg-vitality-green-hover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(26 217 118 / var(--tw-bg-opacity));
