@@ -163,12 +163,18 @@ function supplemental_greens_scripts()
 	// Enqueue custom JavaScript file
 	wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array(), null, true);
 
+	// Conditionally enqueue header scroll script for the home page
+	if (is_front_page()) {
+		wp_enqueue_script('header-scroll-js', get_template_directory_uri() . '/js/header-scroll.js', array(), null, true);
+	}
+
 	// Enqueue comment-reply script if needed
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
 	}
 }
 add_action('wp_enqueue_scripts', 'supplemental_greens_scripts');
+
 
 
 // Function to include SVG files

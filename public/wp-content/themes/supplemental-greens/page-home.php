@@ -38,7 +38,7 @@ get_header();
                             <?php include_svg('arrow-icon.svg'); ?>
                         </span>
                     </button>
-                    <a href="<?php echo get_permalink(get_page_by_path('what-is-ag1')); ?>" class="visited:text-current hidden md:flex border border-2 border-white bg-transparent text-white rounded-full px-6 py-3 text-xl transition-all duration-300 hover:bg-vitality-green-hover hover:border-vitality-green-hover hover:text-black">
+                    <a href="<?php echo get_permalink(get_page_by_path('what-is-ag1')); ?>" class="visited:text-current hidden md:flex border border-2 border-white bg-transparent text-white md:text-vitality-green rounded-full px-6 py-3 text-xl transition-all duration-300 hover:bg-vitality-green-hover hover:border-vitality-green-hover hover:text-black">
                         <span>What is AG1?</span>
                     </a>
                     <button class="flex md:hidden items-center justify-center gap-2 border-2 border-vitality-green bg-vitality-green text-white md:bg-white rounded-full px-6 py-3 text-lg transition-all duration-300 hover:bg-vitality-green-hover hover:text-black hover:border-vitality-green-hover">
@@ -47,7 +47,7 @@ get_header();
                             <?php include_svg('arrow-icon.svg'); ?>
                         </span>
                     </button>
-                    <a href="<?php echo get_permalink(get_page_by_path('what-is-ag1')); ?>" class="visited:text-current flex items-center justify-center md:hidden border-2 border-vitality-green bg-transparent text-vitality-green rounded-full px-6 py-3 text-lg transition-all duration-300 hover:border-vitality-green-hover hover:bg-vitality-green-hover hover:text-black">
+                    <a href="<?php echo get_permalink(get_page_by_path('what-is-ag1')); ?>" class="visited:text-vitality-green flex items-center justify-center md:hidden border-2 border-vitality-green bg-transparent text-vitality-green rounded-full px-6 py-3 text-lg transition-all duration-300 hover:border-vitality-green-hover hover:bg-vitality-green-hover hover:text-black">
                         <span>What is AG1?</span>
                     </a>
                 </div>
