@@ -71,7 +71,7 @@ get_header();
                     <p>AG1 CONTAINS YOUR:</p>
                 </div>
                 <div class="flex">
-                    <img loading="lazy" class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
+                    <img loading="lazy" class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" alt="AG1 bottle" />
                     <div class="flex flex-col items-center pt-[50px] md:pr-[60px] xl:pr-[112px] xl:pt-[150px] xl:pb-[150px] fade-in-up">
                         <p class="hidden lg:flex text-l font-light mb-4">AG1 CONTAINS YOUR</p>
                         <ul class="m-0 md:ml-12 list-none text-sm md:text-xl font-light">
@@ -207,7 +207,8 @@ get_header();
                 </div>
                 <div class="order-1 lg:order-2 flex h-full items-center">
                     <picture>
-                        <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp"><img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy">
+                        <source srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=webp&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=webp&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=webp&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=webp&amp;fit=max 2048w" type="image/webp">
+                        <img srcset="https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=512&amp;fm=pjpg&amp;fit=max 512w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1024&amp;fm=pjpg&amp;fit=max 1024w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=1536&amp;fm=pjpg&amp;fit=max 1536w, https://cdn.sanity.io/images/jf30o7wb/production/2bc58b1c3d1b9b89787dc245cae682e9b2acdee6-1598x1286.png?w=2048&amp;fm=pjpg&amp;fit=max" class="ag-2m3" loading="lazy" alt="AG1 pouch, bottle, travel packs, scoop and canister">
                     </picture>
                 </div>
             </div>
@@ -287,7 +288,7 @@ get_header();
 
         <div class="relative flex flex-auto lg:w-1/2">
             <picture class="aspect-picture">
-                <img loading="lazy" class="absolute top-0 left-0 w-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" />
+                <img loading="lazy" class="absolute top-0 left-0 w-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" alt="Test tube" />
             </picture>
         </div>
     </section>

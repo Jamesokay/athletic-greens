@@ -22,7 +22,7 @@ Template Name: What Is AG1
                 <p class="md:text-xl font-light">To nourish your whole body health, you’d need multiple supplements.* One scoop of AG1 replaces the following:</p>
             </div>
             <div class="grow basis-1/3">
-                <img class="object-cover overflow-visible min-w-[180px] w-[180px] h-[395px] md:min-w-[280px] md:w-[280px] md:h-[489px] 2xl:min-w-[458px] 2xl:w-[458px] 2xl:h-[800px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/ag1-bottle-2.webp" />
+                <img loading="lazy" class="object-cover overflow-visible min-w-[180px] w-[180px] h-[395px] md:min-w-[280px] md:w-[280px] md:h-[489px] 2xl:min-w-[458px] 2xl:w-[458px] 2xl:h-[800px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/ag1-bottle-2.webp" alt="AG1 bottle" />
             </div>
             <div class="flex flex-col basis-1/3 grow justify-center">
                 <ul class="list-none m-0 text-xs md:text-base font-light">
@@ -67,7 +67,7 @@ Template Name: What Is AG1
                 <h2 class="text-[1.75rem] lg:text-4xl xl:text-[3.2rem] xl:leading-[1]">What's in a scoop?</h2>
                 <p class="md:text-xl">You’d be hard-pressed to find this much nutrient density, at this high of quality — all in one scoop.</p>
                 <div class="flex md:hidden justify-center">
-                    <img class="w-full h-auto object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/one-scoop.webp" alt="One scoop" />
+                    <img loading="lazy" class="w-full h-auto object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/one-scoop.webp" alt="One scoop" />
                 </div>
                 <div class="flex flex-col font-light text-sm md:text-base">
                     <div class="flex w-full py-3 md:py-4 justify-between border-b border-vitality-grey">
@@ -105,7 +105,7 @@ Template Name: What Is AG1
                 </div>
             </div>
             <div class="hidden md:flex flex-1 flex-col items-center">
-                <img class="w-full h-auto object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/one-scoop.webp" alt="One scoop" />
+                <img loading="lazy" class="w-full h-auto object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/one-scoop.webp" alt="One scoop" />
             </div>
         </div>
     </section>
@@ -114,17 +114,17 @@ Template Name: What Is AG1
         <h2 class="text-[1.75rem] lg:text-4xl xl:text-[3.2rem] xl:leading-[1] fade-in-up">What AG1 is not</h2>
         <div class="flex flex-col xl:flex-row gap-8 text-lg fade-in-up">
             <div class="flex flex-col gap-4">
-                <img class="w-10 h-10 md:h-12 md:w-12" src="https://cdn.sanity.io/images/jf30o7wb/production/16154d7ccc1e764065e558d4af32832b8ed8cf7e-42x42.svg" alt="Negation symbol" />
+                <img loading="lazy" class="w-10 h-10 md:h-12 md:w-12" src="https://cdn.sanity.io/images/jf30o7wb/production/16154d7ccc1e764065e558d4af32832b8ed8cf7e-42x42.svg" alt="Negation symbol" />
                 <p class="font-semibold">Protein Supplement</p>
                 <p>While AG1 contains pea protein to optimize digestive comfort, it does not replace a protein supplement.</p>
             </div>
             <div class="flex flex-col gap-4">
-                <img class="w-10 h-10 md:h-12 md:w-12" src="https://cdn.sanity.io/images/jf30o7wb/production/16154d7ccc1e764065e558d4af32832b8ed8cf7e-42x42.svg" alt="Negation symbol" />
+                <img loading="lazy" class="w-10 h-10 md:h-12 md:w-12" src="https://cdn.sanity.io/images/jf30o7wb/production/16154d7ccc1e764065e558d4af32832b8ed8cf7e-42x42.svg" alt="Negation symbol" />
                 <p class="font-semibold">Meal Replacement</p>
                 <p>AG1 does not provide enough calories to skip a meal. It is designed to complement a healthy diet, not replace one.</p>
             </div>
             <div class="flex flex-col gap-4">
-                <img class="w-10 h-10 md:h-12 md:w-12" src="https://cdn.sanity.io/images/jf30o7wb/production/16154d7ccc1e764065e558d4af32832b8ed8cf7e-42x42.svg" alt="Negation symbol" />
+                <img loading="lazy" class="w-10 h-10 md:h-12 md:w-12" src="https://cdn.sanity.io/images/jf30o7wb/production/16154d7ccc1e764065e558d4af32832b8ed8cf7e-42x42.svg" alt="Negation symbol" />
                 <p class="font-semibold">Green Juice</p>
                 <p>AG1 provides nutrients from fruits and vegetables but removes excess sugar by using high quality extracts.</p>
             </div>
