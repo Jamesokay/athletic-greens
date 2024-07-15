@@ -7,6 +7,7 @@ module.exports = {
 		extend: {
 			colors: {
 				'vitality-grey': '#d1d5db',
+				'vitality-grey-extra-light': '#f6f5f1',
 				'vitality-grey-light': '#f7f8f7',
 				'vitality-grey-medium': '#b2b3b2',
 				'vitality-grey-dark': '#6b7280',

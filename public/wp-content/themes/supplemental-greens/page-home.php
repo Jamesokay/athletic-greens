@@ -71,7 +71,7 @@ get_header();
                     <p>AG1 CONTAINS YOUR:</p>
                 </div>
                 <div class="flex">
-                    <img class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
+                    <img loading="lazy" class="w-[180px] h-[395px] md:w-[280px] md:h-[576px] 2xl:w-[414px] 2xl:h-[848px]" src="<?php echo get_template_directory_uri(); ?>/assets/images/AG1-bottle.webp" />
                     <div class="flex flex-col items-center pt-[50px] md:pr-[60px] xl:pr-[112px] xl:pt-[150px] xl:pb-[150px] fade-in-up">
                         <p class="hidden lg:flex text-l font-light mb-4">AG1 CONTAINS YOUR</p>
                         <ul class="m-0 md:ml-12 list-none text-sm md:text-xl font-light">
@@ -95,27 +95,27 @@ get_header();
     <section id="testimonials" class="py-10 md:py-20">
         <div class="grid grid-cols-1 gap-y-8 px-6 md:px-20 md:grid-cols-2 lg:grid-cols-3 fade-in-up">
             <div class="flex items-center md:px-4">
-                <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/cf299b71bab75fff4fa1c458cabc60ad9d320f66-32x36.svg" alt="Lamp icon" />
+                <img loading="lazy" class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/cf299b71bab75fff4fa1c458cabc60ad9d320f66-32x36.svg" alt="Lamp icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Science-driven nutrition <br> supplement</p>
             </div>
             <div class="flex items-center md:px-4">
-                <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/c4cab89fc822ed918a26fb4e4275632dd3abf6cb-40x40.svg" alt="Ingredients icon" />
+                <img loading="lazy" class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/c4cab89fc822ed918a26fb4e4275632dd3abf6cb-40x40.svg" alt="Ingredients icon" />
                 <p class="text-[1.3rem] leading-[1.1]">75 ingredients your body <br> can easily absorb</p>
             </div>
             <div class="flex items-center md:px-4">
-                <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/f269322de778c178f8e2018869b37689a3e7c206-40x40.svg" alt="Safety icon" />
+                <img loading="lazy" class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/f269322de778c178f8e2018869b37689a3e7c206-40x40.svg" alt="Safety icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Third-party certified <br> for safety</p>
             </div>
             <div class="flex items-center md:px-4">
-                <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/0d1de9c4acc6bd7e2878e2b4dde4d4096718ada3-40x40.svg" alt="Sweeteners icon" />
+                <img loading="lazy" class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/0d1de9c4acc6bd7e2878e2b4dde4d4096718ada3-40x40.svg" alt="Sweeteners icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Optimized for flavor without <br> artificial sweeteners</p>
             </div>
             <div class="flex items-center md:px-4">
-                <img class="h-10 w-10 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/55f73009e2d58186b8ac1983aadfb22cf1f495ff-40x42.svg" alt="Ribbon icon" />
+                <img loading="lazy" class="h-10 w-10 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/55f73009e2d58186b8ac1983aadfb22cf1f495ff-40x42.svg" alt="Ribbon icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Trusted by leading doctors <br> and scientists</p>
             </div>
             <div class="flex items-center md:px-4">
-                <img class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/b099434bf57baa147ab7236eaad5bce7f2f09b36-40x40.svg" alt="Iteration icon" />
+                <img loading="lazy" class="h-9 w-9 mr-6" src="https://cdn.sanity.io/images/jf30o7wb/production/b099434bf57baa147ab7236eaad5bce7f2f09b36-40x40.svg" alt="Iteration icon" />
                 <p class="text-[1.3rem] leading-[1.1]">Continuously <br> improved since 2010</p>
             </div>
         </div>
@@ -127,19 +127,19 @@ get_header();
             <h1 class="text-4xl 2xl:text-[3.25rem] leading-[1]">Here's how AG1 works</h1>
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="flex flex-col gap-6">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/scoop.webp" alt="Scoop" />
+                    <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/scoop.webp" alt="Scoop" />
                     <p class="text-[1.3rem] leading-[1.1]">Mix one scoop of AG1</p>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cold-water.webp" alt="Cold Water" />
+                    <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/cold-water.webp" alt="Cold Water" />
                     <p class="text-[1.3rem] leading-[1.1]">With 8oz of cold water</p>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shake.webp" alt="Shake" />
+                    <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/shake.webp" alt="Shake" />
                     <p class="text-[1.3rem] leading-[1.1]">Shake</p>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/enjoy.webp" alt="Enjoy" />
+                    <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/enjoy.webp" alt="Enjoy" />
                     <p class="text-[1.3rem] leading-[1.1]">Enjoy the refreshing taste of pineapple and vanilla</p>
                 </div>
             </div>
@@ -187,7 +187,7 @@ get_header();
                         </button>
                         <div class="flex gap-2 items-center justify-center w-full">
                             <p class="md:text-lg font-light">HSA/FSA eligible with</p>
-                            <img class="w-[100px]" src="https://drinkag1.com/trumed_logo.png" alt="Truemed Logo" />
+                            <img loading="lazy" class="w-[100px]" src="https://drinkag1.com/trumed_logo.png" alt="Truemed Logo" />
                         </div>
                         <div class="flex flex-col md:flex-row w-full items-center justify-center gap-4 mt-8">
                             <div class="flex items-center gap-2">
@@ -279,15 +279,15 @@ get_header();
                     </div>
                 </div>
                 <div class="flex gap-4 items-center">
-                    <img class="h-[50px] w-auto" src="https://cdn.sanity.io/images/jf30o7wb/production/951e3b9a69bbe1081ff698b2fcab10fdb6efeafe-148x54.svg" alt="Certified sport label" />
-                    <img class="h-[50px] w-auto" src="https://cdn.sanity.io/images/jf30o7wb/production/5453ce55a8b4767ce86f1f435cfaa4a31bb353d2-91x56.svg" alt="TGA facility label" />
+                    <img loading="lazy" class="h-[50px] w-auto" src="https://cdn.sanity.io/images/jf30o7wb/production/951e3b9a69bbe1081ff698b2fcab10fdb6efeafe-148x54.svg" alt="Certified sport label" />
+                    <img loading="lazy" class="h-[50px] w-auto" src="https://cdn.sanity.io/images/jf30o7wb/production/5453ce55a8b4767ce86f1f435cfaa4a31bb353d2-91x56.svg" alt="TGA facility label" />
                 </div>
             </div>
         </div>
 
         <div class="relative flex flex-auto lg:w-1/2">
             <picture class="aspect-picture">
-                <img class="absolute top-0 left-0 w-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" />
+                <img loading="lazy" class="absolute top-0 left-0 w-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/images/test-tube.webp" />
             </picture>
         </div>
     </section>
