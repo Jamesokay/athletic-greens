@@ -21,7 +21,9 @@ My goal here was to rapidly learn WordPress. To do so, I have built a custom the
 <br/><br/>
 <img width="1498" alt="Screenshot 2024-07-17 at 1 18 16 PM" src="https://github.com/user-attachments/assets/e32a0a2c-d46c-42b6-9100-d079dbdd26da">
 <br/><br/>
-<img width="1497" alt="Screenshot 2024-07-17 at 1 18 33 PM" src="https://github.com/user-attachments/assets/6c984269-5194-4c25-b986-6c33950d3d1d">
-<br/><br/>
 <img width="1499" alt="Screenshot 2024-07-17 at 1 29 07 PM" src="https://github.com/user-attachments/assets/e2244050-697a-4b32-ac3e-17debbeee9e6">
+<br/><br/>
+<img width="1497" alt="Screenshot 2024-07-17 at 1 18 33 PM" src="https://github.com/user-attachments/assets/6c984269-5194-4c25-b986-6c33950d3d1d">
+
+
 
