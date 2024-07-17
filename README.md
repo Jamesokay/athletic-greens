@@ -13,8 +13,6 @@ My goal here was to rapidly learn WordPress. To do so, I have built a custom the
 
 ## Gallery
 
-https://github.com/user-attachments/assets/4447dc36-99e6-4c3c-953e-29b6d88c5e6a
-<br/><br/>
 <img width="1500" alt="Screenshot 2024-07-17 at 1 17 09 PM" src="https://github.com/user-attachments/assets/fd7938d1-cf98-432a-a969-ced6780e003e">
 <br/><br/>
 <img width="1498" alt="Screenshot 2024-07-17 at 1 17 25 PM" src="https://github.com/user-attachments/assets/d2c18cf7-1aa5-4aff-a7c0-5a07163ec9dc">
