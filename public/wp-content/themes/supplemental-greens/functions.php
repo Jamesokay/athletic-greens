@@ -150,8 +150,13 @@ add_action('widgets_init', 'supplemental_greens_widgets_init');
  */
 function supplemental_greens_scripts()
 {
-	// Enqueue Google Fonts: Inter and Merriweather
-	wp_enqueue_style('supplemental-greens-google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@100..900', false);
+	// Preconnect to Google Fonts
+	echo '<link rel="preconnect" href="https://fonts.googleapis.com">';
+	echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
+
+	// Preload Google Fonts with specific weights
+	echo '<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel=\'stylesheet\'">';
+	echo '<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"></noscript>';
 
 	// Enqueue main stylesheet
 	wp_enqueue_style('supplemental-greens-style', get_stylesheet_uri(), array(), _S_VERSION);
@@ -174,6 +179,31 @@ function supplemental_greens_scripts()
 	}
 }
 add_action('wp_enqueue_scripts', 'supplemental_greens_scripts');
+
+// Inline critical CSS
+function inline_critical_css()
+{
+?>
+	<style>
+		/* Critical font-face declarations */
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 100 900;
+			src: url('https://fonts.gstatic.com/s/inter/v7/UcCO3FwrP2-UFU8k7N7Ih7DqK-E5vU0.woff2') format('woff2');
+			font-display: swap;
+		}
+
+		/* Other critical styles */
+		body {
+			font-family: 'Inter', sans-serif;
+		}
+	</style>
+<?php
+}
+add_action('wp_head', 'inline_critical_css', 1);
+
+
 
 
 
